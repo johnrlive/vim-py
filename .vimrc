@@ -1,6 +1,6 @@
 " Extends Configurations without touching ~/.vimrc
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
+if filereadable(expand("~/vim-py/.vimrc.local"))
+  source ~/vim-py/.vimrc.local
 endif
 
 " Fisa-vim-config

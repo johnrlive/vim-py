@@ -3,8 +3,8 @@
 "  source ~/.vimrc.local
 " endif
 " Uses Enter to fold and unfold
-" nmap <return> :NERDTreeToggle<CR>
-" let NerdTreeHijackNetrw = 0
+nmap <return> :NERDTreeToggle<CR>
+let NerdTreeHijackNetrw = 0
 
 " ===========================================================================
 " Custom configurations
