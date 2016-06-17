@@ -3,7 +3,6 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-" ==
 " Fisa-vim-config
 " http://fisadev.github.io/fisa-vim-config/
 " version: 8.1
