@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo 'sudo ln -s .vimrc ~/.vimrc'
+echo 'sudo ln -s ~/dev-py.vimrc ~/.vimrc'
 sleep 1
-sudo ln -s .vimrc ~/.vimrc
+sudo ln -s ~/dev-py/.vimrc ~/.vimrc
 
-echo 'sudo ln -s .vimrc.local ~/.vimrc.local'
+echo 'sudo ln -s ~/dev-py/.vimrc.local ~/.vimrc.local'
 sleep 1
-sudo ln -s .vimrc.local ~/.vimrc.local
+sudo ln -s ~/dev-py/.vimrc.local ~/.vimrc.local
 
 echo 'sudo apt-get install -y curl vim-nox-py2 exuberant-ctags git ack-grep'
 sleep 1
