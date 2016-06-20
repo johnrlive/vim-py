@@ -23,7 +23,7 @@ sudo apt-get install -y curl vim-nox-py2 exuberant-ctags git ack-grep
 sudo pip install pep8 flake8 pyflakes isort yapf
 ``
 
-2) Download the .vimrc file and place it in your linux home folder.
+2) Clone repo and symlink .vimrc file to your linux home folder.
 
 ``
 cd ~
@@ -31,6 +31,10 @@ cd ~
 
 ``
 git clone https://github.com/johnrlive/vim-py.git
+``
+
+``
+sudo ln -s ~/vim-py/.vimrc ~/.vimrc
 ``
 
 3) Open vim and it will continue the installation by itself. Wait for it to finish... and done! You now have your new shiny powerful vim :)
