@@ -17,7 +17,9 @@ Also, your .vim folder should be empty. If you have one, rename it or move to a 
 
 ``
 sudo apt-get install -y curl vim-nox-py2 exuberant-ctags git ack-grep
+``
 
+``
 sudo pip install pep8 flake8 pyflakes isort yapf
 ``
 
