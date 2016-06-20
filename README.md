@@ -27,7 +27,9 @@ sudo pip install pep8 flake8 pyflakes isort yapf
 
 ``
 cd ~
+``
 
+``
 git clone https://github.com/johnrlive/vim-py.git
 ``
 
