@@ -25,6 +25,11 @@ sudo pip install pep8 flake8 pyflakes isort yapf
 
 2) Download the .vimrc file and place it in your linux home folder.
 
+``
+cd ~
+git clone https://github.com/johnrlive/vim-py.git
+``
+
 3) Open vim and it will continue the installation by itself. Wait for it to finish... and done! You now have your new shiny powerful vim :)
 
 Optional: If you want fancy symbols and breadcrumbs on your status line, check this small tutorial.
